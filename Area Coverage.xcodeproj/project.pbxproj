@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EECACC3C1DBFDA2600DAE1E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECACC3B1DBFDA2600DAE1E0 /* Cocoa.framework */; };
+		EECACC461DBFDA2600DAE1E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EECACC441DBFDA2600DAE1E0 /* InfoPlist.strings */; };
+		EECACC481DBFDA2600DAE1E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EECACC471DBFDA2600DAE1E0 /* main.m */; };
+		EECACC4C1DBFDA2600DAE1E0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EECACC4A1DBFDA2600DAE1E0 /* Credits.rtf */; };
+		EECACC4F1DBFDA2600DAE1E0 /* acAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EECACC4E1DBFDA2600DAE1E0 /* acAppDelegate.m */; };
+		EECACC521DBFDA2600DAE1E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECACC501DBFDA2600DAE1E0 /* MainMenu.xib */; };
+		EECACC541DBFDA2600DAE1E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECACC531DBFDA2600DAE1E0 /* Images.xcassets */; };
+		EECACC5B1DBFDA2600DAE1E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECACC5A1DBFDA2600DAE1E0 /* XCTest.framework */; };
+		EECACC5C1DBFDA2600DAE1E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECACC3B1DBFDA2600DAE1E0 /* Cocoa.framework */; };
+		EECACC641DBFDA2600DAE1E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EECACC621DBFDA2600DAE1E0 /* InfoPlist.strings */; };
+		EECACC661DBFDA2600DAE1E0 /* Area_CoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EECACC651DBFDA2600DAE1E0 /* Area_CoverageTests.m */; };
+		EEE430AD1DC000420009DC00 /* acAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE430AC1DC000420009DC00 /* acAppController.m */; };
+		EEF12BBC1DC0B5CE001A48F4 /* acDataProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF12BBB1DC0B5CE001A48F4 /* acDataProcessor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECACC5D1DBFDA2600DAE1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECACC301DBFDA2600DAE1E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECACC371DBFDA2600DAE1E0;
+			remoteInfo = "Area Coverage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EECACC381DBFDA2600DAE1E0 /* Area Coverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Area Coverage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECACC3B1DBFDA2600DAE1E0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EECACC3E1DBFDA2600DAE1E0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EECACC3F1DBFDA2600DAE1E0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EECACC401DBFDA2600DAE1E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EECACC431DBFDA2600DAE1E0 /* Area Coverage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Area Coverage-Info.plist"; sourceTree = "<group>"; };
+		EECACC451DBFDA2600DAE1E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EECACC471DBFDA2600DAE1E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EECACC491DBFDA2600DAE1E0 /* Area Coverage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Area Coverage-Prefix.pch"; sourceTree = "<group>"; };
+		EECACC4B1DBFDA2600DAE1E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EECACC4D1DBFDA2600DAE1E0 /* acAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acAppDelegate.h; sourceTree = "<group>"; };
+		EECACC4E1DBFDA2600DAE1E0 /* acAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = acAppDelegate.m; sourceTree = "<group>"; };
+		EECACC511DBFDA2600DAE1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EECACC531DBFDA2600DAE1E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EECACC591DBFDA2600DAE1E0 /* Area CoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Area CoverageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECACC5A1DBFDA2600DAE1E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EECACC611DBFDA2600DAE1E0 /* Area CoverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Area CoverageTests-Info.plist"; sourceTree = "<group>"; };
+		EECACC631DBFDA2600DAE1E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EECACC651DBFDA2600DAE1E0 /* Area_CoverageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Area_CoverageTests.m; sourceTree = "<group>"; };
+		EEE430AB1DC000420009DC00 /* acAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acAppController.h; sourceTree = "<group>"; };
+		EEE430AC1DC000420009DC00 /* acAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acAppController.m; sourceTree = "<group>"; };
+		EEF12BBA1DC0B5CE001A48F4 /* acDataProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acDataProcessor.h; sourceTree = "<group>"; };
+		EEF12BBB1DC0B5CE001A48F4 /* acDataProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acDataProcessor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECACC351DBFDA2600DAE1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECACC3C1DBFDA2600DAE1E0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECACC561DBFDA2600DAE1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECACC5C1DBFDA2600DAE1E0 /* Cocoa.framework in Frameworks */,
+				EECACC5B1DBFDA2600DAE1E0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC0E0EA1DDB6D0D00D82A01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEF12BBA1DC0B5CE001A48F4 /* acDataProcessor.h */,
+				EEF12BBB1DC0B5CE001A48F4 /* acDataProcessor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEC0E0EB1DDB6D1E00D82A01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEE430AB1DC000420009DC00 /* acAppController.h */,
+				EEE430AC1DC000420009DC00 /* acAppController.m */,
+				EECACC4D1DBFDA2600DAE1E0 /* acAppDelegate.h */,
+				EECACC4E1DBFDA2600DAE1E0 /* acAppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EECACC2F1DBFDA2600DAE1E0 = {
+			isa = PBXGroup;
+			children = (
+				EECACC411DBFDA2600DAE1E0 /* Area Coverage */,
+				EECACC5F1DBFDA2600DAE1E0 /* Area CoverageTests */,
+				EECACC3A1DBFDA2600DAE1E0 /* Frameworks */,
+				EECACC391DBFDA2600DAE1E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECACC391DBFDA2600DAE1E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECACC381DBFDA2600DAE1E0 /* Area Coverage.app */,
+				EECACC591DBFDA2600DAE1E0 /* Area CoverageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECACC3A1DBFDA2600DAE1E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECACC3B1DBFDA2600DAE1E0 /* Cocoa.framework */,
+				EECACC5A1DBFDA2600DAE1E0 /* XCTest.framework */,
+				EECACC3D1DBFDA2600DAE1E0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECACC3D1DBFDA2600DAE1E0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECACC3E1DBFDA2600DAE1E0 /* AppKit.framework */,
+				EECACC3F1DBFDA2600DAE1E0 /* CoreData.framework */,
+				EECACC401DBFDA2600DAE1E0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EECACC411DBFDA2600DAE1E0 /* Area Coverage */ = {
+			isa = PBXGroup;
+			children = (
+				EEC0E0EA1DDB6D0D00D82A01 /* Model */,
+				EEC0E0EB1DDB6D1E00D82A01 /* Controller */,
+				EECACC501DBFDA2600DAE1E0 /* MainMenu.xib */,
+				EECACC531DBFDA2600DAE1E0 /* Images.xcassets */,
+				EECACC421DBFDA2600DAE1E0 /* Supporting Files */,
+			);
+			path = "Area Coverage";
+			sourceTree = "<group>";
+		};
+		EECACC421DBFDA2600DAE1E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECACC431DBFDA2600DAE1E0 /* Area Coverage-Info.plist */,
+				EECACC441DBFDA2600DAE1E0 /* InfoPlist.strings */,
+				EECACC471DBFDA2600DAE1E0 /* main.m */,
+				EECACC491DBFDA2600DAE1E0 /* Area Coverage-Prefix.pch */,
+				EECACC4A1DBFDA2600DAE1E0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECACC5F1DBFDA2600DAE1E0 /* Area CoverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECACC651DBFDA2600DAE1E0 /* Area_CoverageTests.m */,
+				EECACC601DBFDA2600DAE1E0 /* Supporting Files */,
+			);
+			path = "Area CoverageTests";
+			sourceTree = "<group>";
+		};
+		EECACC601DBFDA2600DAE1E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECACC611DBFDA2600DAE1E0 /* Area CoverageTests-Info.plist */,
+				EECACC621DBFDA2600DAE1E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECACC371DBFDA2600DAE1E0 /* Area Coverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECACC691DBFDA2600DAE1E0 /* Build configuration list for PBXNativeTarget "Area Coverage" */;
+			buildPhases = (
+				EECACC341DBFDA2600DAE1E0 /* Sources */,
+				EECACC351DBFDA2600DAE1E0 /* Frameworks */,
+				EECACC361DBFDA2600DAE1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Area Coverage";
+			productName = "Area Coverage";
+			productReference = EECACC381DBFDA2600DAE1E0 /* Area Coverage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECACC581DBFDA2600DAE1E0 /* Area CoverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECACC6C1DBFDA2600DAE1E0 /* Build configuration list for PBXNativeTarget "Area CoverageTests" */;
+			buildPhases = (
+				EECACC551DBFDA2600DAE1E0 /* Sources */,
+				EECACC561DBFDA2600DAE1E0 /* Frameworks */,
+				EECACC571DBFDA2600DAE1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECACC5E1DBFDA2600DAE1E0 /* PBXTargetDependency */,
+			);
+			name = "Area CoverageTests";
+			productName = "Area CoverageTests";
+			productReference = EECACC591DBFDA2600DAE1E0 /* Area CoverageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECACC301DBFDA2600DAE1E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ac;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Venedikt Tsulenev";
+				TargetAttributes = {
+					EECACC581DBFDA2600DAE1E0 = {
+						TestTargetID = EECACC371DBFDA2600DAE1E0;
+					};
+				};
+			};
+			buildConfigurationList = EECACC331DBFDA2600DAE1E0 /* Build configuration list for PBXProject "Area Coverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECACC2F1DBFDA2600DAE1E0;
+			productRefGroup = EECACC391DBFDA2600DAE1E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECACC371DBFDA2600DAE1E0 /* Area Coverage */,
+				EECACC581DBFDA2600DAE1E0 /* Area CoverageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECACC361DBFDA2600DAE1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECACC461DBFDA2600DAE1E0 /* InfoPlist.strings in Resources */,
+				EECACC541DBFDA2600DAE1E0 /* Images.xcassets in Resources */,
+				EECACC4C1DBFDA2600DAE1E0 /* Credits.rtf in Resources */,
+				EECACC521DBFDA2600DAE1E0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECACC571DBFDA2600DAE1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECACC641DBFDA2600DAE1E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECACC341DBFDA2600DAE1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF12BBC1DC0B5CE001A48F4 /* acDataProcessor.m in Sources */,
+				EECACC4F1DBFDA2600DAE1E0 /* acAppDelegate.m in Sources */,
+				EEE430AD1DC000420009DC00 /* acAppController.m in Sources */,
+				EECACC481DBFDA2600DAE1E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECACC551DBFDA2600DAE1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECACC661DBFDA2600DAE1E0 /* Area_CoverageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECACC5E1DBFDA2600DAE1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECACC371DBFDA2600DAE1E0 /* Area Coverage */;
+			targetProxy = EECACC5D1DBFDA2600DAE1E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECACC441DBFDA2600DAE1E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECACC451DBFDA2600DAE1E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EECACC4A1DBFDA2600DAE1E0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECACC4B1DBFDA2600DAE1E0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EECACC501DBFDA2600DAE1E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECACC511DBFDA2600DAE1E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EECACC621DBFDA2600DAE1E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECACC631DBFDA2600DAE1E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECACC671DBFDA2600DAE1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EECACC681DBFDA2600DAE1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EECACC6A1DBFDA2600DAE1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Area Coverage/Area Coverage-Prefix.pch";
+				INFOPLIST_FILE = "Area Coverage/Area Coverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EECACC6B1DBFDA2600DAE1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Area Coverage/Area Coverage-Prefix.pch";
+				INFOPLIST_FILE = "Area Coverage/Area Coverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EECACC6D1DBFDA2600DAE1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Area Coverage.app/Contents/MacOS/Area Coverage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Area Coverage/Area Coverage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Area CoverageTests/Area CoverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EECACC6E1DBFDA2600DAE1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Area Coverage.app/Contents/MacOS/Area Coverage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Area Coverage/Area Coverage-Prefix.pch";
+				INFOPLIST_FILE = "Area CoverageTests/Area CoverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECACC331DBFDA2600DAE1E0 /* Build configuration list for PBXProject "Area Coverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECACC671DBFDA2600DAE1E0 /* Debug */,
+				EECACC681DBFDA2600DAE1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECACC691DBFDA2600DAE1E0 /* Build configuration list for PBXNativeTarget "Area Coverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECACC6A1DBFDA2600DAE1E0 /* Debug */,
+				EECACC6B1DBFDA2600DAE1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECACC6C1DBFDA2600DAE1E0 /* Build configuration list for PBXNativeTarget "Area CoverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECACC6D1DBFDA2600DAE1E0 /* Debug */,
+				EECACC6E1DBFDA2600DAE1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECACC301DBFDA2600DAE1E0 /* Project object */;
+}
